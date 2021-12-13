@@ -1,0 +1,9 @@
+name: SetBlock
+version: 0.0.1
+api: 3.0.0
+main: YTBJero\SetBlock\Main
+author: YTBJero
+
+commands:
+  setblock:
+    description: "SetBlock"
