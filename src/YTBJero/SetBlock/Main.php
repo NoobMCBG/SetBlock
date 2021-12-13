@@ -26,6 +26,10 @@ class Main extends PluginBase{
 					$s->sendMessage("Usage: /setblock (id) (meta)");
 					return false;
 				}
+				if(!isset($args[1])){
+					$s->sendMessage("Usage: /setblock (id) (meta)");
+					return false;
+				
 				$x = $s->getX();
 				$y = $s->getY();
 				$z = $s->getZ();
